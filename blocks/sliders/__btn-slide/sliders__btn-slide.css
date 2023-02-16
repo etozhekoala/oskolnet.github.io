@@ -1,0 +1,12 @@
+.sliders__btn-slide {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(38, 48, 87, 0.2);
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.sliders__btn-slide:last-child {
+    margin-right: 0px;
+}

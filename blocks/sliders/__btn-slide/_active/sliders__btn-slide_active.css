@@ -1,0 +1,5 @@
+.sliders__btn-slide_active {
+    width: 28px;
+    border-radius: 10px;
+    background-color: var(--sub-color);
+}

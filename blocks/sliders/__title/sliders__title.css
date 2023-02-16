@@ -1,0 +1,9 @@
+.sliders__title {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}

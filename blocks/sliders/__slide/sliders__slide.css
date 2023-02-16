@@ -1,0 +1,10 @@
+.sliders__slide {
+    height:450px;
+    padding-left: 62px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}

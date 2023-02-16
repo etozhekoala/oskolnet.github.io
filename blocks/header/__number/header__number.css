@@ -1,0 +1,19 @@
+.header__number {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--main-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__number:before {
+    content: '';
+    background-image: url(../../../image/mobile-icon.svg);
+    background-size: contain;
+    width: 25px;
+    height: 23px;
+    position: relative;
+    background-repeat: no-repeat;
+}
