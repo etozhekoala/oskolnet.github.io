@@ -1,0 +1,6 @@
+.sliders__dot {
+  width: 9px;
+  height: 9px;
+  background-color: rgba(38, 48, 87, .2);
+  border-radius: 50%;
+}

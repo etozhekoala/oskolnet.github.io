@@ -1,0 +1,5 @@
+.sliders__dot_type_active {
+  width: 28px;
+  border-radius: 10px;
+  background-color: var(--main-background-color);
+}

@@ -1,0 +1,9 @@
+.button_type_slider {
+  width: 222px;
+  height: 47px;
+  font-size: 20px;
+  line-height: 29px;
+  background-color: var(--main-background-color);
+  border: 1px solid #6984F0;
+  box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
+}

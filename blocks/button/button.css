@@ -1,4 +1,4 @@
-button {
+.button {
   width: 172px;
   height: 34px;
   border: none;
@@ -6,4 +6,5 @@ button {
   font-weight: 400;
   color: #fff;
   border-radius: 30px;
+  cursor: pointer;
 }
