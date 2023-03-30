@@ -1,0 +1,15 @@
+.sliders__button {
+  display: flex;
+  width: 222px;
+  height: 47px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-background-color);
+  border: 1px solid #6984F0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
