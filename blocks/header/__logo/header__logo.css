@@ -1,0 +1,13 @@
+.header__logo {
+  width: 158px;
+  height: 95px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../image/logo.svg);
+  transition: opacity .3s ease;
+}
+
+.header__logo:hover {
+  opacity: .5;
+}

@@ -1,0 +1,10 @@
+.header__telephone-subtitle {
+  margin: 0;
+  font-size: 14px;
+  line-height: 10px;
+  color: var(--main-text-color);
+  opacity: .5;
+  text-align: right;
+  letter-spacing: 4px;
+  margin-right: -4px;
+}

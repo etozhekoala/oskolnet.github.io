@@ -1,0 +1,19 @@
+.header__telephone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.header__telephone:before {
+  content: '';
+  width: 15px;
+  height: 23px;
+  background-image: url(../../../image/mobile-img.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
