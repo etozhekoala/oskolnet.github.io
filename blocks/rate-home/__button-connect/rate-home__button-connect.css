@@ -1,0 +1,13 @@
+.rate-home__button-connect {
+  font-size: 15px;
+  padding: 0;
+  width: 190px;
+  height: 35px;
+  background-color: var(--main-background-color);
+  transition: opacity .3s ease;
+  outline: none;
+}
+
+.rate-home__button-connect:hover {
+  opacity: .8;
+}

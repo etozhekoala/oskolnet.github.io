@@ -1,0 +1,30 @@
+.rate-home__more-button {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 5px;
+  width: 116px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: opacity .3s ease;
+}
+
+.rate-home__more-button:after {
+  content: "";
+  width: 12px;
+  height: 11px;
+  background-image: url(../../../image/more-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rate-home__more-button:hover {
+  opacity: .8;
+}

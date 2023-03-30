@@ -1,0 +1,14 @@
+.rate-home__tab-link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-bottom: 4px;
+  color: var(--main-text-color);
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.rate-home__tab-link:hover {
+  opacity: .7;
+}

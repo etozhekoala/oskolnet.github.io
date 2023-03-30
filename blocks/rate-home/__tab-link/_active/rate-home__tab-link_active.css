@@ -1,0 +1,8 @@
+.rate-home__tab-link_active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--main-background-color);
+}
+
+.rate-home__tab-link_active:hover {
+  opacity: 1;
+}

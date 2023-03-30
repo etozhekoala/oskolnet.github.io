@@ -1,0 +1,9 @@
+.rate-home__title {
+  margin: 0;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}

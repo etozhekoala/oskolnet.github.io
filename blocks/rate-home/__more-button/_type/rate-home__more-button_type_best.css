@@ -1,0 +1,7 @@
+.rate-home__more-button_type_best {
+  color: #fff;
+}
+
+.rate-home__more-button_type_best:after {
+  background-image: url(../../../../image/more-icon-white.svg);
+}

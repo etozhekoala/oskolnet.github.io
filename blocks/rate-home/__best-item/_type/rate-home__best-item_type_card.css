@@ -1,0 +1,7 @@
+.rate-home__best-item_type_card {
+  background-color: #fff;
+  color: var(--main-text-color);
+  position: absolute;
+  top: 23px;
+  left: 19px;
+}

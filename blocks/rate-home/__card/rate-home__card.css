@@ -1,0 +1,9 @@
+.rate-home__card {
+  width: 190px;
+  border-radius: 30px;
+  padding: 58px 0 37px 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
