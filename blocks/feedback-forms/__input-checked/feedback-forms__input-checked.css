@@ -1,0 +1,11 @@
+.feedback-forms__input-checked {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+.feedback-forms__input-checked:checked + .feedback-forms__custom-checked::before {
+  transform: translate(-50%, -50%) scale(1);
+}

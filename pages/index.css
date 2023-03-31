@@ -52,8 +52,12 @@
 @import url(../blocks/feedback-forms/__form/feedback-forms__form.css);
 @import url(../blocks/feedback-forms/__title-form/feedback-forms__title-form.css);
 @import url(../blocks/feedback-forms/__fieldset/feedback-forms__fieldset.css);
+@import url(../blocks/feedback-forms/__input-img/feedback-forms__input-img.css);
 @import url(../blocks/feedback-forms/__input/feedback-forms__input.css);
+@import url(../blocks/feedback-forms/__input/_type/feedback-forms__input_type_area.css);
+@import url(../blocks/feedback-forms/__input/_type/feedback-forms__input_type_home.css);
 @import url(../blocks/button/_type/button_type_callback-form.css);
 @import url(../blocks/feedback-forms/__checked/feedback-forms__checked.css);
-@import url(../blocks/feedback-forms/__text-checked/feedback-forms__text-checked.css);
+@import url(../blocks/feedback-forms/__input-checked/feedback-forms__input-checked.css);
+@import url(../blocks/feedback-forms/__custom-checked/feedback-forms__custom-checked.css);
 @import url(../blocks/feedback-forms/__form-check-speed/feedback-forms__form-check-speed.css);

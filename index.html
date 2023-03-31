@@ -259,12 +259,11 @@
               Жду звонка
             </button>
           </fieldset>
-          <div class="feedback-forms__checked">
-            <input type="checkbox" class="feedback-forms__input-checked">
-            <p class="feedback-forms__text-checked">
-              Нажимая на кнопку, я даю согласие на обработку персональных данных
-            </p>
-          </div>
+            <label class="feedback-forms__checked">
+              <input type="checkbox" class="feedback-forms__input-checked">
+              <span class="feedback-forms__custom-checked"></span>
+                Нажимая на кнопку, я даю согласие на обработку персональных данных
+            </label>
         </form>
       </div>
       <div class="feedback-forms__form">
@@ -273,14 +272,15 @@
         </h2>
         <form class="feedback-forms__name-form">
           <fieldset class="feedback-forms__fieldset">
+            <span class="feedback-forms__input-img"></span>
             <input 
               placeholder="Улица"
               type="text" 
-              class="feedback-forms__input feedback-forms__input-area">
+              class="feedback-forms__input feedback-forms__input_type_area">
             <input 
               placeholder="Дом"
               type="text"
-              class="feedback-forms__input feedback-forms__input-number-home">
+              class="feedback-forms__input feedback-forms__input_type_home">
             <button class="button button_type_callback-form">
               Проверить
             </button>
