@@ -1,0 +1,19 @@
+.feedback-forms__input {
+  max-width: 390px;
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+::placeholder {
+  color: var(--main-text-color);
+}

@@ -48,3 +48,12 @@
 @import url(../blocks/rate-home/__button-connect/rate-home__button-connect.css);
 @import url(../blocks/rate-home/__button-frame/rate-home__button-frame.css);
 @import url(../blocks/button-link/button-link.css);
+@import url(../blocks/feedback-forms/feedback-forms.css);
+@import url(../blocks/feedback-forms/__form/feedback-forms__form.css);
+@import url(../blocks/feedback-forms/__title-form/feedback-forms__title-form.css);
+@import url(../blocks/feedback-forms/__fieldset/feedback-forms__fieldset.css);
+@import url(../blocks/feedback-forms/__input/feedback-forms__input.css);
+@import url(../blocks/button/_type/button_type_callback-form.css);
+@import url(../blocks/feedback-forms/__checked/feedback-forms__checked.css);
+@import url(../blocks/feedback-forms/__text-checked/feedback-forms__text-checked.css);
+@import url(../blocks/feedback-forms/__form-check-speed/feedback-forms__form-check-speed.css);

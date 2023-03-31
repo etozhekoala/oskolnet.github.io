@@ -1,0 +1,10 @@
+.feedback-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1380px;
+  box-sizing:border-box;
+  padding: 0 100px 52px 100px;
+  background-color: var(--gray-background-color);
+}
