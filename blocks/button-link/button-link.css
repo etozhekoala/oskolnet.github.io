@@ -1,0 +1,14 @@
+.button-link {
+  display: flex;
+  width: 250px;
+  height: 48px;
+  border-radius: 60px;
+  background-color: var(--main-background-color);
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+}

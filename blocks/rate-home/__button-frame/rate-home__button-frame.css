@@ -1,0 +1,10 @@
+.rate-home__button-frame {
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+  transition: opacity .3s ease;
+}
+
+.rate-home__button-frame:hover {
+  opacity: .8;
+}
