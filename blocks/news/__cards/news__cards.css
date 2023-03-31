@@ -1,0 +1,10 @@
+.news__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  margin: 0;
+  padding: 27px 0 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  list-style-type: none;
+}

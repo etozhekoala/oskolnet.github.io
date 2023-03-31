@@ -1,9 +1,9 @@
-.about__title {
+.news__title {
   margin: 0;
+  text-align: center;
   font-size: 48px;
   font-weight: 500;
   line-height: 62px;
-  text-align: center;
   text-transform: uppercase;
   color: var(--main-text-color);
 }

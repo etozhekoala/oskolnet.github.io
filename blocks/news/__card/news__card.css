@@ -1,0 +1,9 @@
+.news__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 30px 33px 39px 33px;
+  background-color: #fff;
+}

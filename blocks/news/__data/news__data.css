@@ -1,0 +1,8 @@
+.news__data {
+  margin: 0;
+  padding: 25px 0 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--main-text-color);
+}
