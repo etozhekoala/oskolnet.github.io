@@ -61,3 +61,11 @@
 @import url(../blocks/feedback-forms/__input-checked/feedback-forms__input-checked.css);
 @import url(../blocks/feedback-forms/__custom-checked/feedback-forms__custom-checked.css);
 @import url(../blocks/feedback-forms/__form-check-speed/feedback-forms__form-check-speed.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__form/about__form.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__button-frame/about__button-frame.css);
