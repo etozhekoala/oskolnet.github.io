@@ -1,0 +1,14 @@
+.documents__link {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: opacity .3s ease;
+}
+
+.documents__link:hover {
+  opacity: .7;
+}
+
+

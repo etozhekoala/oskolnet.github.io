@@ -1,0 +1,9 @@
+.documents__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  padding-bottom: 41px;
+  margin: 0;
+  text-align: center;
+  color: var(--main-text-color);
+}

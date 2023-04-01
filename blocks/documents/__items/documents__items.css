@@ -1,0 +1,12 @@
+.documents__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 69px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 46px 40px;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  background-color: var(--gray-background-color);
+}
