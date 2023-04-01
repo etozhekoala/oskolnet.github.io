@@ -1,0 +1,17 @@
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 243px;
+  height: 100%;
+  object-fit: contain;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #fff;
+  transition: opacity .3s ease;
+}
+
+.partners__link:hover {
+  opacity: .7;
+}

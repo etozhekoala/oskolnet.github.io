@@ -83,3 +83,12 @@
 @import url(../blocks/documents/__item/documents__item.css);
 @import url(../blocks/documents/__link/documents__link.css);
 @import url(../blocks/documents/__item-image/documents__item-image.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__slider/partners__slider.css);
+@import url(../blocks/partners/__button-slider/partners__button-slider.css);
+@import url(../blocks/partners/__button-slider/_type/partners__button-slider_type_left.css);
+@import url(../blocks/partners/__button-slider/_type/partners__button-slider_type_right.css);
+@import url(../blocks/partners/__items/partners__items.css);
+@import url(../blocks/partners/__link/partners__link.css);
+@import url(../blocks/partners/__image/partners__image.css);

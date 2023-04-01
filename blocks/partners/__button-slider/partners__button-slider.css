@@ -1,0 +1,10 @@
+.partners__button-slider {
+  width: 18px;
+  height: 33px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.partners__button-slider:hover {
+  opacity: .7;
+}

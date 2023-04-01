@@ -1,0 +1,9 @@
+.partners__button-slider_type_right {
+  width: 17px;
+  height: 33px;
+  transform: rotate(180deg);
+  background-image: url(../../../../image/btn-slider.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
