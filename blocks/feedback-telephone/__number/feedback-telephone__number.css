@@ -1,4 +1,4 @@
-.header__telephone {
+.feedback-telephone__number {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-.header__telephone:before {
+.feedback-telephone__number:before {
   content: '';
   width: 15px;
   height: 23px;

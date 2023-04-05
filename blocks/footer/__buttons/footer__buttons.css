@@ -1,0 +1,6 @@
+.footer__buttons {
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+}

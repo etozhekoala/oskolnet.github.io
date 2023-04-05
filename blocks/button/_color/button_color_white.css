@@ -1,0 +1,4 @@
+.button_color_white {
+  color: var(--main-text-color);
+  background-color: #fff;
+}

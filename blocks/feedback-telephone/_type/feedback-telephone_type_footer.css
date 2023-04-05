@@ -1,0 +1,7 @@
+.feedback-telephone_type_footer {
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  padding-left: 11px;
+  box-sizing: border-box;
+}

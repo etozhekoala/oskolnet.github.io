@@ -1,0 +1,6 @@
+.footer__descriptions {
+  display: flex;
+  gap: 121px;
+  padding-top: 89px;
+  justify-content: flex-start;
+}

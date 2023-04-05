@@ -1,0 +1,13 @@
+.footer__social-link {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity .3s ease;
+}
+
+.footer__social-link:hover {
+  opacity: .7;
+}

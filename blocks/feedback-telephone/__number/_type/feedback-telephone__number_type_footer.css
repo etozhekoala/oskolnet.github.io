@@ -1,0 +1,8 @@
+.feedback-telephone__number_type_footer {
+  font-size: 18px;
+  color: #fff;
+}
+
+.feedback-telephone__number_type_footer:before {
+  background-image: url(../../../../image/icon-phone-white.svg);
+}

@@ -1,0 +1,7 @@
+.footer {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 100px 100px 55px 100px;
+  box-sizing: border-box;
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+}
