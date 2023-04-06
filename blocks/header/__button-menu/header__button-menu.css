@@ -1,0 +1,14 @@
+.header__button-menu {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: var(--main-background-color);
+  background-image: url(../../../image/menu-icon.svg);
+  background-size: 20px 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -7,3 +7,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    width: 100%;
+    padding: 10px 20px 15px 10px;
+    gap: 29px;
+  }
+}

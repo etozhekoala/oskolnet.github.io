@@ -10,3 +10,9 @@
   margin-right: -4px;
   text-transform: lowercase;
 }
+
+@media screen and (max-width: 767px) {
+  .feedback-telephone__number-subtitle {
+    font-size: 10px;
+  }
+}
