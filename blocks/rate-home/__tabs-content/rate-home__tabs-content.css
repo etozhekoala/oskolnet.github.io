@@ -17,4 +17,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+  .rate-home__tabs-content::-webkit-scrollbar {
+    width: 0;
+  }
 }
