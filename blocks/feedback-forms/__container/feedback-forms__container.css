@@ -1,0 +1,9 @@
+.feedback-forms__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1380px;
+  margin: 0 auto;
+  box-sizing:border-box;
+  padding: 0 100px 52px 100px;
+}

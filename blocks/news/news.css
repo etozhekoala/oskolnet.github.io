@@ -1,7 +1,4 @@
 .news {
-  max-width: 1380px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 90px 100px 80px 100px;
+  width: 100%;
   background-color: var(--gray-background-color);
 }

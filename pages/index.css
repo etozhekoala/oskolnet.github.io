@@ -19,6 +19,7 @@
 @import url(../blocks/button/_type/button_type_pay.css);
 @import url(../blocks/button/_color/button_color_white.css);
 @import url(../blocks/sliders/sliders.css);
+@import url(../blocks/sliders/__container/sliders__container.css);
 @import url(../blocks/sliders/__slide/sliders__slide.css);
 @import url(../blocks/sliders/__title/sliders__title.css);
 @import url(../blocks/sliders/__subtitle/sliders__subtitle.css);
@@ -28,6 +29,7 @@
 @import url(../blocks/sliders/__dot/sliders__dot.css);
 @import url(../blocks/sliders/__dot/_type/sliders__dot_type_active.css);
 @import url(../blocks/rate-home/rate-home.css);
+@import url(../blocks/rate-home/__container/rate-hone__container.css);
 @import url(../blocks/rate-home/__title/rate-home__title.css);
 @import url(../blocks/rate-home/__frame/rate-home__frame.css);
 @import url(../blocks/rate-home/__tabs/rate-home__tabs.css);
@@ -54,6 +56,7 @@
 @import url(../blocks/rate-home/__button-frame/rate-home__button-frame.css);
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/feedback-forms/feedback-forms.css);
+@import url(../blocks/feedback-forms/__container/feedback-forms__container.css);
 @import url(../blocks/feedback-forms/__form/feedback-forms__form.css);
 @import url(../blocks/feedback-forms/__title-form/feedback-forms__title-form.css);
 @import url(../blocks/feedback-forms/__fieldset/feedback-forms__fieldset.css);
@@ -75,6 +78,7 @@
 @import url(../blocks/about/__paragraph/about__paragraph.css);
 @import url(../blocks/about/__button-frame/about__button-frame.css);
 @import url(../blocks/news/news.css);
+@import url(../blocks/news/__container/news__container.css);
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__card/news__card.css);
@@ -89,6 +93,7 @@
 @import url(../blocks/documents/__link/documents__link.css);
 @import url(../blocks/documents/__item-image/documents__item-image.css);
 @import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__container/partners__container.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__slider/partners__slider.css);
 @import url(../blocks/partners/__button-slider/partners__button-slider.css);
@@ -98,6 +103,7 @@
 @import url(../blocks/partners/__link/partners__link.css);
 @import url(../blocks/partners/__image/partners__image.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column-links/footer__columns-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);

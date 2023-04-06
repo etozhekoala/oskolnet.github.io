@@ -50,250 +50,256 @@
   </header>
   <main class="main">
     <section aria-label="слайдер" class="sliders">
-      <div class="sliders__slide">
-        <div class="sliders__content">
-          <h1 class="sliders__title">
-            Интернет <span class="sliders__subtitle">
-              на высокой скорости
-            </span>
-          </h1>
-          <a href="#" class="sliders__button">
-            Выбрать тариф
-          </a>
-        </div>
-        <img 
-        src="./image/slide-1.png"
-        alt="Слайд интернет на высокой скорости" 
-        class="sliders__image">
-        <div class="sliders__dots">
-          <div class="sliders__dot sliders__dot_type_active"></div>
-          <div class="sliders__dot"></div>
-          <div class="sliders__dot"></div>
+      <div class="sliders__container">
+        <div class="sliders__slide">
+          <div class="sliders__content">
+            <h1 class="sliders__title">
+              Интернет <span class="sliders__subtitle">
+                на высокой скорости
+              </span>
+            </h1>
+            <a href="#" class="sliders__button">
+              Выбрать тариф
+            </a>
+          </div>
+          <img 
+          src="./image/slide-1.png"
+          alt="Слайд интернет на высокой скорости" 
+          class="sliders__image">
+          <div class="sliders__dots">
+            <div class="sliders__dot sliders__dot_type_active"></div>
+            <div class="sliders__dot"></div>
+            <div class="sliders__dot"></div>
+          </div>
         </div>
       </div>
     </section>
     <section aria-label="тарифы для дома" class="rate-home">
-      <h2 class="rate-home__title">
-        Тарифы для дома
-      </h2>
-      <div class="rate-home__frame">
-        <ul class="rate-home__tabs">
-          <li class="rate-home__tab-item">
-            <a class="rate-home__tab-link rate-home__tab-link_active">
-              Интернет
+      <div class="rate-home__container">
+        <h2 class="rate-home__title">
+          Тарифы для дома
+        </h2>
+        <div class="rate-home__frame">
+          <ul class="rate-home__tabs">
+            <li class="rate-home__tab-item">
+              <a class="rate-home__tab-link rate-home__tab-link_active">
+                Интернет
+              </a>
+            </li>
+            <li class="rate-home__tab-item">
+              <a class="rate-home__tab-link">
+                Интернет + Кабельное ТВ
+              </a>
+              <div class="rate-home__best-item">Хит</div>
+            </li>
+            <li class="rate-home__tab-item">
+              <a class="rate-home__tab-link">
+                Интернет + Smart TV
+              </a>
+            </li>
+            <li class="rate-home__tab-item">
+              <a class="rate-home__tab-link">
+                Интернет + Телефония
+              </a>
+            </li>
+          </ul>
+          <ul class="rate-home__tabs-content">
+            <li class="rate-home__card">
+              <div class="rate-home__card-info">
+                <h3 class="rate-home__card-title">
+                  Medium
+                </h3>
+                <p class="rate-home__card-speed-info">
+                  30 Мбит/с
+                </p>
+                <button 
+                  type="button"
+                  class="rate-home__more-button">
+                  Подробнее
+                </button>
+              </div>
+              <p class="rate-home__card-price">
+                300 
+                <span class="rate-home__price-span">
+                  ₽/мес
+                </span>
+              </p>
+              <button
+                type="button"
+                class="button rate-home__button-connect">
+                Подключить
+              </button>
+            </li>
+            <li class="rate-home__card">
+              <div class="rate-home__card-info">
+                <h3 class="rate-home__card-title">
+                  Total
+                </h3>
+                <p class="rate-home__card-speed-info">
+                  60 Мбит/с
+                </p>
+                <button 
+                  type="button"
+                  class="rate-home__more-button">
+                  Подробнее
+                </button>
+              </div>
+              <p class="rate-home__card-price">
+                450 
+                <span class="rate-home__price-span">
+                  ₽/мес
+                </span>
+              </p>
+              <button
+                type="button"
+                class="button rate-home__button-connect">
+                Подключить
+              </button>
+            </li>
+            <li class="rate-home__card rate-home__card_type_best">
+              <div class="rate-home__best-item rate-home__best-item_type_card">Хит</div>
+              <div class="rate-home__card-info rate-home__card-info_type_best">
+                <h3 class="rate-home__card-title rate-home__card-title_type_best">
+                  Energy
+                </h3>
+                <p class="rate-home__card-speed-info rate-home__card-speed-info_type_best">
+                  100 Мбит/с
+                </p>
+                <button 
+                  type="button"
+                  class="rate-home__more-button rate-home__more-button_type_best">
+                  Подробнее
+                </button>
+              </div>
+              <p class="rate-home__card-price rate-home__card-price_type_best">
+                600 
+                <span class="rate-home__price-span">
+                  ₽/мес
+                </span>
+              </p>
+              <button
+                type="button"
+                class="button rate-home__button-connect">
+                Подключить
+              </button>
+            </li>
+            <li class="rate-home__card">
+              <div class="rate-home__card-info">
+                <h3 class="rate-home__card-title">
+                  Ultra
+                </h3>
+                <p class="rate-home__card-speed-info">
+                  200 Мбит/с
+                </p>
+                <button 
+                  type="button"
+                  class="rate-home__more-button">
+                  Подробнее
+                </button>
+              </div>
+              <p class="rate-home__card-price">
+                900 
+                <span class="rate-home__price-span">
+                  ₽/мес
+                </span>
+              </p>
+              <button
+                type="button"
+                class="button rate-home__button-connect">
+                Подключить
+              </button>
+            </li>
+            <li class="rate-home__card">
+              <div class="rate-home__card-info">
+                <h3 class="rate-home__card-title">
+                  Rush
+                </h3>
+                <p class="rate-home__card-speed-info">
+                  300 Мбит/с
+                </p>
+                <button 
+                  type="button"
+                  class="rate-home__more-button">
+                  Подробнее
+                </button>
+              </div>
+              <p class="rate-home__card-price">
+                1100 
+                <span class="rate-home__price-span">
+                  ₽/мес
+                </span>
+              </p>
+              <button
+                type="button"
+                class="button rate-home__button-connect">
+                Подключить
+              </button>
+            </li>
+          </ul>
+          <div class="rate-home__button-frame">
+            <a href="#" class="button-link">
+              Все тарифы
             </a>
-          </li>
-          <li class="rate-home__tab-item">
-            <a class="rate-home__tab-link">
-              Интернет + Кабельное ТВ
-            </a>
-            <div class="rate-home__best-item">Хит</div>
-          </li>
-          <li class="rate-home__tab-item">
-            <a class="rate-home__tab-link">
-              Интернет + Smart TV
-            </a>
-          </li>
-          <li class="rate-home__tab-item">
-            <a class="rate-home__tab-link">
-              Интернет + Телефония
-            </a>
-          </li>
-        </ul>
-        <ul class="rate-home__tabs-content">
-          <li class="rate-home__card">
-            <div class="rate-home__card-info">
-              <h3 class="rate-home__card-title">
-                Medium
-              </h3>
-              <p class="rate-home__card-speed-info">
-                30 Мбит/с
-              </p>
-              <button 
-                type="button"
-                class="rate-home__more-button">
-                Подробнее
-              </button>
-            </div>
-            <p class="rate-home__card-price">
-              300 
-              <span class="rate-home__price-span">
-                ₽/мес
-              </span>
-            </p>
-            <button
-              type="button"
-              class="button rate-home__button-connect">
-              Подключить
-            </button>
-          </li>
-          <li class="rate-home__card">
-            <div class="rate-home__card-info">
-              <h3 class="rate-home__card-title">
-                Total
-              </h3>
-              <p class="rate-home__card-speed-info">
-                60 Мбит/с
-              </p>
-              <button 
-                type="button"
-                class="rate-home__more-button">
-                Подробнее
-              </button>
-            </div>
-            <p class="rate-home__card-price">
-              450 
-              <span class="rate-home__price-span">
-                ₽/мес
-              </span>
-            </p>
-            <button
-              type="button"
-              class="button rate-home__button-connect">
-              Подключить
-            </button>
-          </li>
-          <li class="rate-home__card rate-home__card_type_best">
-            <div class="rate-home__best-item rate-home__best-item_type_card">Хит</div>
-            <div class="rate-home__card-info rate-home__card-info_type_best">
-              <h3 class="rate-home__card-title rate-home__card-title_type_best">
-                Energy
-              </h3>
-              <p class="rate-home__card-speed-info rate-home__card-speed-info_type_best">
-                100 Мбит/с
-              </p>
-              <button 
-                type="button"
-                class="rate-home__more-button rate-home__more-button_type_best">
-                Подробнее
-              </button>
-            </div>
-            <p class="rate-home__card-price rate-home__card-price_type_best">
-              600 
-              <span class="rate-home__price-span">
-                ₽/мес
-              </span>
-            </p>
-            <button
-              type="button"
-              class="button rate-home__button-connect">
-              Подключить
-            </button>
-          </li>
-          <li class="rate-home__card">
-            <div class="rate-home__card-info">
-              <h3 class="rate-home__card-title">
-                Ultra
-              </h3>
-              <p class="rate-home__card-speed-info">
-                200 Мбит/с
-              </p>
-              <button 
-                type="button"
-                class="rate-home__more-button">
-                Подробнее
-              </button>
-            </div>
-            <p class="rate-home__card-price">
-              900 
-              <span class="rate-home__price-span">
-                ₽/мес
-              </span>
-            </p>
-            <button
-              type="button"
-              class="button rate-home__button-connect">
-              Подключить
-            </button>
-          </li>
-          <li class="rate-home__card">
-            <div class="rate-home__card-info">
-              <h3 class="rate-home__card-title">
-                Rush
-              </h3>
-              <p class="rate-home__card-speed-info">
-                300 Мбит/с
-              </p>
-              <button 
-                type="button"
-                class="rate-home__more-button">
-                Подробнее
-              </button>
-            </div>
-            <p class="rate-home__card-price">
-              1100 
-              <span class="rate-home__price-span">
-                ₽/мес
-              </span>
-            </p>
-            <button
-              type="button"
-              class="button rate-home__button-connect">
-              Подключить
-            </button>
-          </li>
-        </ul>
-        <div class="rate-home__button-frame">
-          <a href="#" class="button-link">
-            Все тарифы
-          </a>
+          </div>
         </div>
       </div>
     </section>
     <section class="feedback-forms">
-      <div class="feedback-forms__form">
-        <h2 class="feedback-forms__title-form">
-          Трудно выбрать? Мы поможем!
-        </h2>
-        <form class="feedback-forms__name-form">
-          <fieldset class="feedback-forms__fieldset">
-            <input 
-              placeholder="+7(___)___-__-__"
-              type="number" 
-              class="feedback-forms__input feedback-forms__input-number">
-            <input 
-              placeholder="Как вас зовут?"
-              type="text"
-              class="feedback-forms__input feedback-forms__input-name">
-            <button class="button button_type_callback-form">
-              Жду звонка
-            </button>
-          </fieldset>
-            <label class="feedback-forms__checked">
-              <input type="checkbox" class="feedback-forms__input-checked">
-              <span class="feedback-forms__custom-checked"></span>
-                Нажимая на кнопку, я даю согласие на обработку персональных данных
-            </label>
-        </form>
-      </div>
-      <div class="feedback-forms__form">
-        <h2 class="feedback-forms__title-form">
-          Проверить возможность подключения по вашему адресу
-        </h2>
-        <form class="feedback-forms__name-form">
-          <fieldset class="feedback-forms__fieldset">
-            <span class="feedback-forms__input-img"></span>
-            <input 
-              placeholder="Улица"
-              type="text" 
-              class="feedback-forms__input feedback-forms__input_type_area">
-            <input 
-              placeholder="Дом"
-              type="text"
-              class="feedback-forms__input feedback-forms__input_type_home">
+      <div class="feedback-forms__container">
+        <div class="feedback-forms__form">
+          <h2 class="feedback-forms__title-form">
+            Трудно выбрать? Мы поможем!
+          </h2>
+          <form class="feedback-forms__name-form">
+            <fieldset class="feedback-forms__fieldset">
+              <input 
+                placeholder="+7(___)___-__-__"
+                type="number" 
+                class="feedback-forms__input feedback-forms__input-number">
+              <input 
+                placeholder="Как вас зовут?"
+                type="text"
+                class="feedback-forms__input feedback-forms__input-name">
+              <button class="button button_type_callback-form">
+                Жду звонка
+              </button>
+            </fieldset>
+              <label class="feedback-forms__checked">
+                <input type="checkbox" class="feedback-forms__input-checked">
+                <span class="feedback-forms__custom-checked"></span>
+                  Нажимая на кнопку, я даю согласие на обработку персональных данных
+              </label>
+          </form>
+        </div>
+        <div class="feedback-forms__form">
+          <h2 class="feedback-forms__title-form">
+            Проверить возможность подключения по вашему адресу
+          </h2>
+          <form class="feedback-forms__name-form">
+            <fieldset class="feedback-forms__fieldset">
+              <span class="feedback-forms__input-img"></span>
+              <input 
+                placeholder="Улица"
+                type="text" 
+                class="feedback-forms__input feedback-forms__input_type_area">
+              <input 
+                placeholder="Дом"
+                type="text"
+                class="feedback-forms__input feedback-forms__input_type_home">
+              <button class="button button_type_callback-form">
+                Проверить
+              </button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="feedback-forms__form feedback-forms__form-check-speed">
+          <h2 class="feedback-forms__title-form">
+            Проверить скорость интернета
+          </h2>
             <button class="button button_type_callback-form">
               Проверить
             </button>
-          </fieldset>
-        </form>
-      </div>
-      <div class="feedback-forms__form feedback-forms__form-check-speed">
-        <h2 class="feedback-forms__title-form">
-          Проверить скорость интернета
-        </h2>
-          <button class="button button_type_callback-form">
-            Проверить
-          </button>
+        </div>
       </div>
     </section>
     <section class="about">
@@ -326,7 +332,7 @@
       </div>
     </section>
     <section class="news">
-      <div class="news__frame">
+      <div class="news__container">
         <h2 class="news__title">
           Новости
         </h2>
@@ -414,148 +420,152 @@
       </ul>
     </section>
     <section class="partners">
-      <h2 class="partners__title">
-        Партнеры
-      </h2>
-      <div class="partners__slider">
-        <span class="partners__button-slider partners__button-slider_type_left"></span>
-        <ul class="partners__items">
-          <li>
-            <a href="#" class="partners__link">
-              <img
-                src="./image/smotreshka.png"
-                alt="смотрешка"
-                class="partners__image">
-            </a>
-          </li>
-          <li>
-            <a href="#" class="partners__link">
-              <img
-                src="./image/sber.png"
-                alt="сбербанк"
-                class="partners__image">
-            </a>
-          </li>
-          <li>
-            <a href="#" class="partners__link">
-              <img
-                src="./image/onlife.png"
-                alt="onlife"
-                class="partners__image">
-            </a>
-          </li>
-          <li>
-            <a href="#" class="partners__link">
-              <img
-                src="./image/playroom.png"
-                alt="play room"
-                class="partners__image">
-            </a>
-          </li> 
-        </ul>
-        <span class="partners__button-slider partners__button-slider_type_right"></span>
+      <div class="partners__container">
+        <h2 class="partners__title">
+          Партнеры
+        </h2>
+        <div class="partners__slider">
+          <span class="partners__button-slider partners__button-slider_type_left"></span>
+          <ul class="partners__items">
+            <li>
+              <a href="#" class="partners__link">
+                <img
+                  src="./image/smotreshka.png"
+                  alt="смотрешка"
+                  class="partners__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="partners__link">
+                <img
+                  src="./image/sber.png"
+                  alt="сбербанк"
+                  class="partners__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="partners__link">
+                <img
+                  src="./image/onlife.png"
+                  alt="onlife"
+                  class="partners__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="partners__link">
+                <img
+                  src="./image/playroom.png"
+                  alt="play room"
+                  class="partners__image">
+              </a>
+            </li> 
+          </ul>
+          <span class="partners__button-slider partners__button-slider_type_right"></span>
+        </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__columns">
-      <nav class="footer__columns-navigation">
-        <ul class="footer__columns-links">
-          <li>
-            <a href="#" class="footer__column-link">
-              О компании
+    <div class="footer__container">
+      <div class="footer__columns">
+        <nav class="footer__columns-navigation">
+          <ul class="footer__columns-links">
+            <li>
+              <a href="#" class="footer__column-link">
+                О компании
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Новости
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Документы
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__columns-navigation">
+          <ul class="footer__columns-links">
+            <li>
+              <a href="#" class="footer__column-link">
+                Тарифы для дома
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Тарифы для бизнеса
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__columns-navigation">
+          <ul class="footer__columns-links">
+            <li>
+              <a href="#" class="footer__column-link">
+                Тест скорости
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Карта покрытия
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__info-form">
+          <div class="footer__buttons">
+            <button 
+            type="button"
+            class="button button_type_profile button_type_footer">
+            Личный кабинет
+          </button>
+          <button
+            type="button"
+            class="button button_type_pay button_type_footer button_color_white">
+            Оплатить
+          </button>
+          </div>
+          <div class="feedback-telephone feedback-telephone_type_footer">
+            <a href="tel:+74725439720" class="feedback-telephone__number feedback-telephone__number_type_footer">
+              +7 (4725) 43-97-20
             </a>
-          </li>
-          <li>
-            <a href="#" class="footer__column-link">
-              Новости
-            </a>
-          </li>
-          <li>
-            <a href="#" class="footer__column-link">
-              Документы
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__columns-navigation">
-        <ul class="footer__columns-links">
-          <li>
-            <a href="#" class="footer__column-link">
-              Тарифы для дома
-            </a>
-          </li>
-          <li>
-            <a href="#" class="footer__column-link">
-              Тарифы для бизнеса
-            </a>
-          </li>
-          <li>
-            <a href="#" class="footer__column-link">
-              Контакты
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__columns-navigation">
-        <ul class="footer__columns-links">
-          <li>
-            <a href="#" class="footer__column-link">
-              Тест скорости
-            </a>
-          </li>
-          <li>
-            <a href="#" class="footer__column-link">
-              Карта покрытия
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer__info-form">
-        <div class="footer__buttons">
-          <button 
-          type="button"
-          class="button button_type_profile button_type_footer">
-          Личный кабинет
-        </button>
-        <button
-          type="button"
-          class="button button_type_pay button_type_footer button_color_white">
-          Оплатить
-        </button>
+            <p class="feedback-telephone__number-subtitle feedback-telephone__number-subtitle_type_footer">
+              Круглосуточно
+            </p>
+          </div>
+          <ul class="footer__social">
+            <li>
+              <a href="#" class="footer__social-link footer__social-link_type_viber"></a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link footer__social-link_type_whatsApp"></a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link footer__social-link_type_telegram"></a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link footer__social-link_type_vk"></a>
+            </li>
+          </ul>
+          </div>
         </div>
-        <div class="feedback-telephone feedback-telephone_type_footer">
-          <a href="tel:+74725439720" class="feedback-telephone__number feedback-telephone__number_type_footer">
-            +7 (4725) 43-97-20
-          </a>
-          <p class="feedback-telephone__number-subtitle feedback-telephone__number-subtitle_type_footer">
-            Круглосуточно
-          </p>
-        </div>
-        <ul class="footer__social">
-          <li>
-            <a href="#" class="footer__social-link footer__social-link_type_viber"></a>
-          </li>
-          <li>
-            <a href="#" class="footer__social-link footer__social-link_type_whatsApp"></a>
-          </li>
-          <li>
-            <a href="#" class="footer__social-link footer__social-link_type_telegram"></a>
-          </li>
-          <li>
-            <a href="#" class="footer__social-link footer__social-link_type_vk"></a>
-          </li>
-        </ul>
-        </div>
+      <div class="footer__descriptions">
+        <p class="footer__copy">
+          © ЗАО «Осколнэт», 2023
+        </p>
+        <p class="footer__cookies">
+          Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookies и других
+          пользовательских данных, в соответствии с Политикой конфиденциальности
+        </p>
       </div>
-    <div class="footer__descriptions">
-      <p class="footer__copy">
-        © ЗАО «Осколнэт», 2023
-      </p>
-      <p class="footer__cookies">
-        Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookies и других
-        пользовательских данных, в соответствии с Политикой конфиденциальности
-      </p>
     </div>
   </footer>
 </body>

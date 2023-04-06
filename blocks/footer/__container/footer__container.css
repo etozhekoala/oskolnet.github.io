@@ -1,0 +1,6 @@
+.footer__container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 100px 100px 55px 100px;
+  box-sizing: border-box;
+}

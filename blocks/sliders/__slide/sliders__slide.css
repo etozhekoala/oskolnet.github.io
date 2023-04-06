@@ -2,7 +2,6 @@
   display: grid;
   grid-template-rows: 260px 10px;
   position: relative;
-  max-width: 1180px;
   padding: 48px 62px;
   background-color: #fff;
   align-items: center;
