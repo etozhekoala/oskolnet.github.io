@@ -1,14 +1,22 @@
 .header__button-menu {
+  display: none;
   width: 34px;
   height: 34px;
   padding: 0;
   margin: 0;
   border: none;
   outline: none;
+  cursor: pointer;
   border-radius: 50%;
   background-color: var(--main-background-color);
   background-image: url(../../../image/menu-icon.svg);
   background-size: 20px 13px;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button-menu {
+    display: block;
+  }
 }

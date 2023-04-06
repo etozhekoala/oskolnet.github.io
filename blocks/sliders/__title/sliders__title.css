@@ -9,3 +9,13 @@
   text-transform: uppercase;
   padding-bottom: 26px;
 }
+
+@media screen and (max-width: 767px) {
+  .sliders__title {
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 20px;
+  }
+}
