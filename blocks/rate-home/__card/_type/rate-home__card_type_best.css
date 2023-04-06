@@ -1,6 +1,12 @@
 .rate-home__card_type_best {
-  width: 228px;
   padding: 58px 19px 37px 19px;
+  border: 1px;
   background: linear-gradient(180deg, #273158 0%, #0C244D 100%);
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.45);
+}
+
+@media screen and (max-width: 767px) {
+  .rate-home__card_type_best {
+    order: -1;
+  }
 }

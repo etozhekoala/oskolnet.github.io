@@ -1,9 +1,12 @@
 .rate-home__card {
-  width: 190px;
+  padding: 58px 19px 37px 19px;
   border-radius: 30px;
-  padding: 58px 0 37px 0;
-  background-color: #fff;
   box-sizing: border-box;
   position: relative;
   cursor: pointer;
+  transition: .3s ease;
+}
+
+.rate-home__card:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.45);
 }

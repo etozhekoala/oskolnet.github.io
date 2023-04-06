@@ -1,7 +1,12 @@
 .rate-home__frame {
-  max-width: 1180px;
   background-color: #fff;
   border-radius: 15px;
   box-sizing: border-box;
-  padding: 51px 40px 23px 40px;
+  padding: 51px 20px 23px 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .rate-home__frame {
+    padding: 20px 20px 15px 20px;
+  }
 }

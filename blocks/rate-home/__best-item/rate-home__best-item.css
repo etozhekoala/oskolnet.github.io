@@ -11,3 +11,11 @@
   color: #fff;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 767px) {
+  .rate-home__best-item {
+    width: 39px;
+    height: 15px;
+    margin-bottom: 6px;
+  }
+}

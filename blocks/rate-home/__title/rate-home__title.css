@@ -7,3 +7,12 @@
   text-transform: uppercase;
   color: var(--main-text-color);
 }
+
+@media screen and (max-width: 767px) {
+  .rate-home__title {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+}

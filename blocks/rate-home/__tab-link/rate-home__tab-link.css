@@ -12,3 +12,9 @@
 .rate-home__tab-link:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 767px) {
+  .rate-home__tab-link {
+    font-size: 14px;
+  }
+}

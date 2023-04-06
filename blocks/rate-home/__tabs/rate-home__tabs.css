@@ -5,3 +5,12 @@ list-style-type: none;
 justify-content: space-between;
 padding: 0 71px;
 }
+
+@media screen and (max-width: 767px) {
+  .rate-home__tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+  }
+}

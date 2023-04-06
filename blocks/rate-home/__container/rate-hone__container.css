@@ -4,3 +4,10 @@
   padding: 52px 100px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 767px) {
+  .rate-home__container {
+    width: 100%;
+    padding: 40px 0;
+  }
+}
